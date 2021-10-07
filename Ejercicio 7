@@ -1,0 +1,78 @@
+Soluciones de Salesforce
+A.	¿Qué es Salesforce?
+Plataforma con multifunciones en creación de pedidos para cualquier tipo de venta, diseño y demás. 
+B.	¿Qué es Sales Cloud?
+Es una relación con la gestión de datos y el cliente. 
+C.	¿Qué es Service Cloud?
+Plataforma personalizable para el servicio a atención al cliente.
+D.	¿Qué es Health Cloud?
+Plataforma de gestión entre médico y paciente.
+E.	¿Qué es Marketing Cloud?
+Proveedor de software y servicios de automatización de marketing digital. 
+
+Funcionalidades de Salesforce
+A.	¿Qué es un RecordType?
+Creación de tipos de registros que permiten dar procesos comerciales, listas de selección y diseños de página personalizada según el registro. 
+B.	¿Qué es un ReportType?
+Tipos de reporte en Salesforce. Informes a partir de relaciones entre los objetos y los usuarios.
+C.	¿Qué es un Page Layout?
+Personalización de diseño, organización y edición de paginas de registros en Salesforce. Control de las páginas. 
+D.	¿Qué es un Compact Layout?
+Es un apartado de un objeto donde muestra toda la información relevante en campos clave. 
+E.	¿Qué es un Perfil?
+Es la forma de tener acceso a datos y objetos, un apartado personal para llevar a cabo acciones dentro de Salesforce. 
+F.	¿Qué es un Rol?
+Una asignación dentro de un conjunto de acciones, puede ser por parte de una jerarquía dentro de una organización.
+G.	¿Qué es un Validation Rule?
+Es el filtro que tiene de verificación para datos ingresados en algún campo que cumplen los estándares de mediación. 
+H.	¿Qué diferencia hay entre una relación Master Detail y Lookup?
+Una depende de derivaciones de la misma, como si fuera una clase controladora. Lookup, busca y relaciona datos con otro objeto completo. 
+I.	¿Qué es un Sandbox?
+Copia de seguridad de la organización, aislada para mantener un entorno seguro, con funciones de pruebas y capacitación.
+J.	¿Qué es un ChangeSet?
+Cambios de objetos que se envían de una organización a otra con una respectiva personalización. 
+K.	¿Para qué sirve el import Wizard de Salesforce?
+Importar datos, objetos entre otras cosas con mayor facilidad.
+L.	¿Para qué sirve la funcionalidad Web to Lead?
+Diseñar formularios con el objetivo de integrar datos de los usuarios al CRM, de modo que automatiza el proceso de capacitación a leads. 
+M.	¿Para qué sirve la funcionalidad Web to Case?
+Para crear una página web personal que genere casos nuevos de clientes para permitir enviar casos directamente a una instancia de la terminal de nuestro servicio.  Agiliza las respuestas a los clientes y mejora el soporte hacía ellos. 
+N.	¿Para qué sirve la funcionalidad Omnichannel?
+Distribuir canales de información y comunicación con los clientes, parte a través del servicio de nube (Service Cloud) el cual entrega objetos para enrutarse con sus agentes directos de los clientes (hasta haber disponibilidad). 
+O.	¿Para qué sirve la funcionalidad Chatter?
+Es una plataforma de chat donde los equipos de Salesforce pueden tener un seguimiento y comunicación de trabajos y tareas. 
+Conceptos generales
+A.	¿Qué significa SaaS? 
+Desarrollo y mantenimiento de software a través de la nube. Se proporcionan actualizaciones y funciones completas por vía electrónica. 
+B.	¿Salesforce es Saas?
+Totalmente, es un software compartido en la nube, en la cual, sus clientes y organizaciones tienen comunicación a través de la web y desarrollan software para los mismos en la misma nube. 
+C.	¿Qué significa que una solución sea Cloud?
+Que tiene solución con objetos predeterminados que se encuentran a disposición en la nube. 
+D.	¿Qué significa que una solución sea On-Premise?
+Que la solución viene por “defecto” dentro del mantenimiento, seguridad y disponibilidad del software. 
+E.	¿Qué es un pipeline de ventas?
+Un modelo de etapas de una negociación, donde se identifican los clientes potenciales y los pasos a seguir de una estructura fija para aprovechar al máximo la forma de ventas y negociación de la empresa.
+F.	¿Qué es un funnel de ventas?
+Acciones que un vendedor comunica de forma visual a clientes potenciales. 
+G.	¿Qué significa Customer Experience?
+La experiencia que tiene el cliente con algún servicio, empresa en general o producto, la evaluación de satisfacción que tiene sobre ella. 
+H.	¿Qué significa omnicanalidad?
+Comunicación multiple entre un agente y un cliente a través de la web. 
+I.	¿Qué significa que un negocio sea B2B?
+Que el negocio como tal, promueve su servicio a otra empresa y no a un cliente en específico. 
+J.	¿Qué significa que un negocio sea B2C?
+Que su venta es al público. O sea, a un consumidor particularmente hablando. 
+K.	¿Qué es un KPI?
+Es un medido de rendimiento de un proceso, a medida que uno se acerca al objetivo el medidor muestra porcentualmente el avance. 
+L.	¿Qué es una API y en qué se diferencia de una Rest API?
+Api: Interfaz que conecta aplicaciones para la lectura y escritura de información. 
+API Rest: Es la arquitectura que conecta por un protocolo HTTP que permite acceder a información e identificadores únicos. 
+M.	¿Qué es un Proceso Batch?
+Es la ejecución de un programa que se hace por partes para garantizar el desempeño y gestión de procesamiento dentro de la plataforma o sistema computacional
+N.	¿Qué es Kanban?
+Es una metodología ágil para la gestión general de un proceso o fabricación de un producto en el tiempo y forma deseado.
+O.	¿Qué es un ERP? 
+Conjunto de aplicaciones de software integradas que planifican la información de una empresa, la cual se centra en manejar de forma automatizada y fácilmente los recursos de ella. Modularidad. 
+
+P.	¿Salesforce es un ERP?
+Ciertamente, Salesforce utiliza y da la facilidad de crear tus propias facilidades de software para la creación e implementación en el desarrollo de software, un ejemplo serían lo que ellos llaman “sObject”.
