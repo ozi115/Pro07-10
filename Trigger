@@ -1,0 +1,18 @@
+trigger CampId on Contact (before insert, before update) {
+    private String Nombre;
+    private String Idprocontacto;
+    private String Mail;
+    
+    for(Contact c:Trigger.new){
+       Nombre = c.LastName;
+        Idprocontacto = c.idprocontacto__c;
+        Mail = c.Email;
+        
+    }
+    
+}
+
+// In Apex anonymous
+/* Contact c = new Contact (LastName = 'Ocampo', idprocontacto__c ='MktXWOnJ53i5hm1qgS1', Email = 'oziel.monrreal@procontacto.com.mx');
+insert c;   */
+
