@@ -1,8 +1,8 @@
 public class EmailLocator {
-    public static String getEmailById (integer i){
+    /*public static void getEmailById (integer i){
         Http http = new Http();
         HttpRequest request = new HttpRequest();
-        request.setEndpoint('-----' +i);  // No me funcionó ningún link o sitio remoto para buscar. 
+        request.setEndpoint('https://resilient-shark-i0o8lj-dev-ed.lightning.force.com/lightning/r/Contact/0035f000005cUsdAAE/view' +i);
         request.setMethod('GET');
         HttpResponse response = http.send(request);
       
@@ -10,6 +10,31 @@ public class EmailLocator {
             Map<String, Object> Email = (Map<String, Object>) result.get('Email');
             System.debug('Email: ' +string.valueOf(Email.get('Email')));
             return string.valueOf(Email.get('Email'));
+            }*/
+    
+     
+    @future (callout=true)
+    public static void getEmailById(string Idprocontacto, string lastName, string Email) {
+        try{
+            HttpRequest request = new HttpRequest();
+            HttpResponse response = new HttpResponse();
+            Http http = new Http();
+             
+            request.setEndpoint('callout: https://procontacto-reclutamiento-default-rtdb.firebaseio.com');
+            request.setHeader('Content-Type','application/json'); 
+            request.setMethod('POST');
+            request.setBody('fname='+EncodingUtil.urlEncode(Idprocontacto, 'UTF-8')
+                            +'&lname='+EncodingUtil.urlEncode(lastName, 'UTF-8')
+                            +'&Email='+EncodingUtil.urlEncode(Email, 'UTF-8'));
+            request.setCompressed(true);
+             
+            response = http.send(request);
+            if (response.getStatusCode() == 200) {
+                System.debug('Response-' + response);
             }
-
+        }
+        catch(System.CalloutException e){
+            System.debug('Error-' + e.getMessage());   
+        }
+    }
 }
